@@ -1,0 +1,17 @@
+{
+  "name": "kvdock-nextjs-kv",
+  "version": "1.0.0",
+  "description": "Next.js IncrementalCache and ISR key-value storage engine powered by kvdock",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "next": "*",
+    "kvdock": "^0.2.1"
+  },
+  "keywords": ["kvdock", "kv", "cache", "storage", "kvdock-nextjs-kv"],
+  "author": "zisam shaikh <zisamshaikh7@gmail.com>",
+  "license": "MIT"
+}
